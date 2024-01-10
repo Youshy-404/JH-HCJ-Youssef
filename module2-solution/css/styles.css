@@ -176,6 +176,7 @@ p {
   }
 }
 
+/* Mobile View */
 @media (max-width: 767px) {
   .section {
     margin-bottom: 20px;

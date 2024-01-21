@@ -1,0 +1,56 @@
+* {
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+h2 {
+  font-weight: bold;
+}
+
+.menu {
+  background-color: #a9a9a9;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 2px;
+  margin: 30px 40px 30px 40px;
+}
+
+#brand {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+}
+#navbar {
+  background-color: #a9a9a9;
+  border-radius: 0;
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  #button-border {
+    border-color: black;
+    border-width: 2px;
+  }
+
+  #button {
+    background-color: black;
+  }
+
+  #menu {
+    background-color: white;
+    color: black;
+  }
+
+  #menu li {
+    border-bottom: 2px solid black;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    margin: 0;
+  }
+}
